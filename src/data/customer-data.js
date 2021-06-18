@@ -1,26 +1,20 @@
+import alex from '../assets/customers/alex_avatar.jpeg';
+import vale from '../assets/customers/vale_avatar.jpeg';
+
 export default [
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
+    title: 'Una experiencia magnifica!',
     content:
-      'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
-    customerName: 'Jane Doe',
-    customerTitle: 'Director of Research and Data',
-    customerImage: 'https://placeimg.com/150/150/people'
+      'No hay sentimiento tan grande como el de cruzar la meta antes que tu padre.',
+    customerName: 'Alejandro Ramirez',
+    customerTitle: 'Corredor profesional del dia del padre',
+    customerImage: alex,
   },
   {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
-    content:
-      'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
-    customerName: 'John Doe',
-    customerTitle: 'Director of Research and Data',
-    customerImage: 'https://placeimg.com/150/150/people'
+    title: 'La mejor carrera que he experimentado',
+    content: 'Muy buena la carrera. Y el desayuno despues fue cerrar con broche de oro!',
+    customerName: 'Valeria Ramirez',
+    customerTitle: 'Girl boss',
+    customerImage: vale,
   },
-  {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
-    content:
-      'Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis.',
-    customerName: 'Jane Smith',
-    customerTitle: 'Director of Research and Data',
-    customerImage: 'https://placeimg.com/150/150/people'
-  }
 ];

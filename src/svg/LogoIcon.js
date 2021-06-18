@@ -8,9 +8,10 @@ const LogoIcon = () => (
     x="0px"
     y="0px"
     viewBox="0 0 100 125"
-    enable-background="new 0 0 100 100"
+    enableBackground="new 0 0 100 100"
     xmlSpace="preserve"
     className="transform translate-y-1"
+    fill="hsl(56, 73%, 57%)"
   >
     <g>
       <g>

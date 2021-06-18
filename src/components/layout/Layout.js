@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Footer from './Footer';
 import Header from './Header';
 
 const Layout = ({ children }) => {
+  // too lazy to override gatsby's html.js
+  useEffect(() => {
+    const [body] = document.getElementsByTagName('body');
+    body.classList.add('bg-gray-900');
+  });
+
   return (
     <>
       <Header />
-      <main className="text-gray-900">{children}</main>
+      <main className="text-gray-100">{children}</main>
       <Footer />
     </>
   );

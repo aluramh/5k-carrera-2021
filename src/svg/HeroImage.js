@@ -1,9 +1,10 @@
 import React from 'react';
 import heroImage from '../assets/marathon.png';
+import flyerImage from '../assets/flyer.jpeg'
 
 const HeroImage = () => (
   <div>
-    <img src={heroImage}></img>
+    <img src={flyerImage}></img>
   </div>
   // <svg
   //   data-name="Layer 1"
