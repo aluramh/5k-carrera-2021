@@ -10,14 +10,14 @@ const Header = () => (
         <div className="w-12 mr-3">
           <LogoIcon />
         </div>
-        Lander
+        PowerRaces
       </div>
       <div className="flex mt-4 sm:mt-0">
         <AnchorLink className="px-4" href="#features">
-          Features
+          Competidores
         </AnchorLink>
         <AnchorLink className="px-4" href="#services">
-          Services
+          Ubicacion
         </AnchorLink>
         <AnchorLink className="px-4" href="#stats">
           Stats

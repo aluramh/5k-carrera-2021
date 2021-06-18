@@ -10,6 +10,7 @@ const LogoIcon = () => (
     viewBox="0 0 100 125"
     enable-background="new 0 0 100 100"
     xmlSpace="preserve"
+    className="transform translate-y-1"
   >
     <g>
       <g>
