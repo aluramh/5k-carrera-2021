@@ -5,7 +5,7 @@
   "version": "1.1.0",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "build": "gatsby build"
   },
   "dependencies": {
