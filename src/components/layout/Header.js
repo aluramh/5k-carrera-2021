@@ -4,7 +4,7 @@ import LogoIcon from '../../svg/LogoIcon';
 import ButtonLink from '../ButtonLink';
 
 const Header = () => (
-  <header className="sticky top-0 bg-gray-900 text-gray-100 shadow">
+  <header className="sticky top-0 bg-mygray text-gray-100 shadow">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center text-2xl">
         <div className="w-12 mr-3">

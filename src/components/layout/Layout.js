@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   // too lazy to override gatsby's html.js
   useEffect(() => {
     const [body] = document.getElementsByTagName('body');
-    body.classList.add('bg-gray-900');
+    body.classList.add('bg-mygray');
   });
 
   return (
