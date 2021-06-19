@@ -14,10 +14,7 @@ const Header = () => (
       </div>
       <div className="flex mt-4 sm:mt-0">
         <AnchorLink className="px-4" href="#features">
-          Ubicacion
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
-          Eventos previos
+          Lugar
         </AnchorLink>
         <AnchorLink className="px-4" href="#stats">
           Estadisticas
