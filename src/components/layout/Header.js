@@ -1,7 +1,7 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../../svg/LogoIcon';
-import Button from '../Button';
+import ButtonLink from '../ButtonLink';
 
 const Header = () => (
   <header className="sticky top-0 bg-gray-900 text-gray-100 shadow">
@@ -14,20 +14,25 @@ const Header = () => (
       </div>
       <div className="flex mt-4 sm:mt-0">
         <AnchorLink className="px-4" href="#features">
-          Competidores
-        </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
           Ubicacion
         </AnchorLink>
+        <AnchorLink className="px-4" href="#services">
+          Eventos previos
+        </AnchorLink>
         <AnchorLink className="px-4" href="#stats">
-          Stats
+          Estadisticas
         </AnchorLink>
         <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
+          Testimonios
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Inscribete ahora!</Button>
+        <ButtonLink
+          className="text-sm"
+          href="mailto:aluramh@gmail.com?subject=5K dia del padre 2021"
+        >
+          Inscribete ahora!
+        </ButtonLink>
       </div>
     </div>
   </header>

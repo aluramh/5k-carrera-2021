@@ -1,5 +1,5 @@
+import ButtonLink from '../components/ButtonLink';
 import React from 'react';
-import Button from '../components/Button';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
@@ -9,6 +9,9 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+
+import alexPa from '../assets/features/alex_pa.jpg';
+import valePa from '../assets/features/vale_pa.jpg';
 
 const Index = () => (
   <Layout>
@@ -24,7 +27,9 @@ const Index = () => (
             tambien un desayuno en el restaurante favorito de los papas.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Inscribete ahora!</Button>
+            <ButtonLink size="lg" href="mailto:aluramh@gmail.com?subject=5K dia del padre 2021">
+              Inscribete ahora!
+            </ButtonLink>
           </p>
           <p className="mt-4 text-gray-600">Ya inscrito no hay vuelta atras</p>
         </div>
@@ -37,79 +42,40 @@ const Index = () => (
     {/* Ubicacion */}
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">Ubicacion</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <p className="font-semibold text-xl">¿Donde es la carrera?</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
-              </p>
-            </Card>
-          </div>
-          <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
-              <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Parque rio la silla. Esq. Av Del Cortijo, Camino del Rio, Residencial La Hacienda,
+                64890 Monterrey, N.L.
               </p>
             </Card>
           </div>
         </div>
       </div>
     </section>
+
     <SplitSection
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
-          </p>
+          <h3 className="text-3xl font-semibold leading-tight">Dia del padre 2019</h3>
+          <p className="mt-8 text-xl font-light leading-relaxed">Lookin' good!</p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src={alexPa} />}
     />
     <SplitSection
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
-          </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
-          </p>
+          <h3 className="text-3xl font-semibold leading-tight">Dia del padre 2019</h3>
+          <p className="mt-8 text-xl font-light leading-relaxed">Cruzando la meta como campeones</p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
-    />
-    <SplitSection
-      primarySlot={
-        <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
-          </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
-          </p>
-        </div>
-      }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src={valePa} />}
     />
 
     {/* Estadisticas */}
@@ -159,7 +125,9 @@ const Index = () => (
         No dejes que la flojera te gane. Date un respiro este dia del padre.
       </p>
       <p className="mt-8">
-        <Button size="xl">Registrate ahora</Button>
+        <ButtonLink size="xl" href="mailto:aluramh@gmail.com?subject=5K dia del padre 2021">
+          Registrate ahora
+        </ButtonLink>
       </p>
     </section>
   </Layout>
